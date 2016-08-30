@@ -20,9 +20,5 @@ module.exports = {
   babel: {
     presets: ['es2015'],
     plugins: ['transform-runtime']
-},
-  "scripts": {
-      "dev": "webpack-dev-server --inline --hot",
-      "build": "webpack -p"
   }
 }

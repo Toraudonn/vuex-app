@@ -26,5 +26,9 @@
   "dependencies": {
     "vue": "^1.0.26",
     "vuex": "^1.0.0-rc.2"
+  },
+  "scripts": {
+      "dev": "webpack-dev-server --inline --hot",
+      "build": "webpack -p"
   }
 }
