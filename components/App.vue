@@ -1,21 +1,18 @@
 <template>
   <div id="app">
-    <toolbar></toolbar>
-    <notes-list></notes-list>
-    <editor></editor>
+    <headbar></headbar>
+    <selection></selection>
   </div>
 </template>
 
 <script>
-import Toolbar from './Toolbar.vue'
-import NotesList from './NotesList.vue'
-import Editor from './Editor.vue'
+import Headbar from './Headbar.vue'
+import Selection from './Selection.vue'
 
 export default {
   components: {
-    Toolbar,
-    NotesList,
-    Editor
+    Headbar,
+    Selection
   }
 }
 </script>
