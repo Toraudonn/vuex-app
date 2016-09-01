@@ -1,4 +1,4 @@
-export const addNote = ({ dispatch }) => {
+export const showShops = ({ dispatch }) => {
   dispatch('ADD_NOTE')
 }
 
