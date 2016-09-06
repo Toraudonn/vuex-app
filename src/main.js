@@ -29,9 +29,15 @@ router.map({
     component: Login
   }
 })
-
-router.redirect({
-  '*': '/home'
-})
+if (auth.user.authenticated == true) {
+  router.redirect({
+    '*': '/home'
+  })
+}
+else {
+  router.redirect({
+    '*': '/login'
+  })
+}
 
 router.start(App, '#app')
